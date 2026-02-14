@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的数字花园 | wzwblog</title>
+    <meta name="description" content="分享编程、游戏、内容创作和网络生活的故事。">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="site-header">
+        <div class="container">
+            <a href="#" class="logo">MyBlog</a>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#creation">Creation</a></li>
+                    <li><a href="#life">Life</a></li>
+                    <li><a href="#books">Books</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" aria-label="切换主题">
+                <span class="icon">🌓</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 简介 -->
+        <section id="about" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hello, my name is <span class="highlight">WZW</span></h1>
+                    <p class="subtitle">I'm sharing about #coding, #life, and #content creation.</p>
+                    <p class="intro-text">
+                        讲述关于这个世界的故事有无数种方式，这是属于我的方式。
+                        故事讲述是我的热情所在，因为我也曾被他人的故事深刻影响。
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/wzw-66" target="_blank" class="btn">GitHub</a>
+                        <a href="#" target="_blank" class="btn">Twitter</a>
+                        <a href="#" class="btn">Bilibili</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./image/self-picture.jpg" alt="Profile Avatar">
+                </div>
+            </div>
+        </section>
+
+        <!-- 经历 -->
+        <section id="work" class="section-block">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="grid-layout two-columns">
+                    <div class="card work-card">
+                        <div class="card-header">
+                            <h3>Competition</h3>
+                            <span class="year"></span>
+                        </div>
+                        <p> 国家特等奖 ---2025年（第十九届）挑战杯“揭榜挂帅”人工智能领域擂台赛</p>
+                        <p> 二等奖---粤港澳大湾区IT应用系统开发大赛2025年度</p>
+                        <p> 省二等奖---蓝桥杯（c/c++）</p>
+                    </div>
+                    <div class="card work-card">
+                        <div class="card-header">
+                            <h3>School Experience</h3>
+                            <span class="year"></span>
+                        </div>
+                        <p>担任学院云计算团队的负责人，在项目协作与技术实践中积累了宝贵的团队管理与开发经验</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技能栈 -->
+        <section id="skills" class="section-block">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="grid-layout four-columns">
+                    <!-- Java -->
+                    <a href="https://www.java.com/" target="_blank" class="card skill-card">
+                        <div class="skill-default">
+                            <h3>Java</h3>
+                        </div>
+                        <div class="skill-hover">
+                            <h3>Java</h3>
+                            <p>熟练Java及其特性，如集合类，自定义注解，异常处理，多线程，反射，泛型等机制。熟练面向对象编程思想，理解网络，多线程，锁等基本概念</p>
+                        </div>
+                    </a>
+
+                    <!-- Springboot -->
+                    <a href="https://spring.io/projects/spring-boot" target="_blank" class="card skill-card">
+                        <div class="skill-default">
+                            <h3>Springboot</h3>
+                        </div>
+                        <div class="skill-hover">
+                            <h3>Springboot</h3>
+                            <p>熟练Springboot框架，掌握AOP，IOC等特性，熟练MyBatis，MyBatis-plus，MyBatis-Flex等框架</p>
+                        </div>
+                    </a>
+
+                    <!-- 微服务与分布式 -->
+                    <a href="https://spring.io/projects/spring-cloud" target="_blank" class="card skill-card">
+                        <div class="skill-default">
+                            <h3>微服务与分布式</h3>
+                        </div>
+                        <div class="skill-hover">
+                            <h3>微服务与分布式</h3>
+                            <p>掌握SpringCloud微服务架构，掌握服务注册Nacos，OpenFeign远程调用，Sentinel服务熔断，GateWay网关，Seata分布式事务</p>
+                        </div>
+                    </a>
+
+                    <!-- AI应用开发 -->
+                    <a href="https://platform.openai.com/" target="_blank" class="card skill-card">
+                        <div class="skill-default">
+                            <h3>AI应用开发</h3>
+                        </div>
+                        <div class="skill-hover">
+                            <h3>AI应用开发</h3>
+                            <p>熟练AI应用开发，如：RAG，MCP，Skills，Prompt，结构化输出，流式输出，长文本聊天记忆</p>
+                        </div>
+                    </a>
+
+                    <!-- 数据库与持久层 -->
+                    <a href="https://www.mysql.com/" target="_blank" class="card skill-card">
+                        <div class="skill-default">
+                            <h3>数据库与持久层</h3>
+                        </div>
+                        <div class="skill-hover">
+                            <h3>数据库与持久层</h3>
+                            <p>熟练Mysql数据库及其优化，熟悉事务管理，索引优化，熟练sql语句，分页查询，动态SQL，关联查询</p>
+                        </div>
+                    </a>
+
+                    <!-- Git -->
+                    <a href="https://git-scm.com/" target="_blank" class="card skill-card">
+                        <div class="skill-default">
+                            <h3>Git</h3>
+                        </div>
+                        <div class="skill-hover">
+                            <h3>Git</h3>
+                            <p>熟练Git团队开发工具，如分支管理、合并、 rebase、解决冲突等操作，保障代码版本清晰。</p>
+                        </div>
+                    </a>
+
+                    <!-- 前端 -->
+                    <a href="https://vuejs.org/" target="_blank" class="card skill-card">
+                        <div class="skill-default">
+                            <h3>前端</h3>
+                        </div>
+                        <div class="skill-hover">
+                            <h3>前端</h3>
+                            <p>掌握HTML，CSS，JS，TS，掌握Vue3框架，Element-plus组件，Ant-Design Vue组件</p>
+                        </div>
+                    </a>
+
+                    <!-- Vibe Coding -->
+                    <a href="https://www.trae.ai/" target="_blank" class="card skill-card">
+                        <div class="skill-default">
+                            <h3>Vibe Coding</h3>
+                        </div>
+                        <div class="skill-hover">
+                            <h3>Vibe Coding</h3>
+                            <p>熟练Vibe Coding(AI编程)，以及编程工具cursor，trae的使用，掌握claude code，mcp，skills的使用</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 创作与项目 -->
+        <section id="creation" class="section-block">
+            <div class="container">
+                <h2 class="section-title">Creation And Project</h2>
+                <div class="grid-layout three-columns">
+                    <div class="card project-card">
+                        <img src="./image/aimusic.png" alt="AIMusic">
+                        <div class="card-body">
+                            <h3>AIMusic</h3>
+                            <p>基于Spring Boot 3.5.4开发的音
+                      乐创作服务平台，采用微服务架构设计，为用户提供AI音乐生成、在线支付、用户管理等完整功能。项目遵循企业级开发标准，具备高可用性和良好的扩展性。</p>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="./image/zero.png" alt="Zero">
+                        <div class="card-body">
+                            <h3>网站秒搭-AI零代码应用工厂</h3>
+                            <p>基于Spring Boot 3.5.4开发的零信任架构安全认证系统，采用微服务架构设计，为用户提供安全的认证服务。项目遵循企业级开发标准，具备高可用性和良好的扩展性。</p>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="https://picsum.photos/400/250?random=3" alt="Video Essay">
+                        <div class="card-body">
+                            <h3>Null</h3>
+                            <p>Null
+                            </p>
+                            <div class="stats">
+                                <span>12k 关注</span>
+                                <span>200w+ 播放</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 生活与兴趣 (模仿时间图表和音乐) -->
+        <section id="life" class="section-block">
+            <div class="container">
+                <h2 class="section-title">Life And Interest</h2>
+                
+                <div class="grid-layout dashboard-grid">
+                    <!-- 音乐板块 -->
+                    <div class="card music-card">
+                        <h3>Music Preferences</h3>
+                        <p>我喜欢摇滚乐。虽然没什么天赋</p>
+                        <div class="tags">
+                            <span class="tag">Rock</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Code</span>
+                            <span class="tag">Economics</span>
+
+                        </div>
+                        <div class="music-visualizer">
+                            <div class="bar" style="height: 60%"></div>
+                            <div class="bar" style="height: 80%"></div>
+                            <div class="bar" style="height: 40%"></div>
+                            <div class="bar" style="height: 90%"></div>
+                            <div class="bar" style="height: 50%"></div>
+                        </div>
+                    </div>
+
+                    <!-- 时间分配图表 -->
+                    <div class="card time-card">
+                        <h3>Time Allocation</h3>
+                        <p>我最大的爱好是学习，我对几乎所有事物都充满好奇。</p>
+                        <div class="chart-container">
+                            <!-- 使用 CSS 模拟简单的条形图 -->
+                            <div class="chart-row">
+                                <span class="label">Coding</span>
+                                <div class="bar-bg"><div class="bar-fill" style="width: 80%"></div></div>
+                            </div>
+                            <div class="chart-row">
+                                <span class="label">Economics</span>
+                                <div class="bar-bg"><div class="bar-fill" style="width: 20%"></div></div>
+                            </div>
+                            <div class="chart-row">
+                                <span class="label">Music</span>
+                                <div class="bar-bg"><div class="bar-fill" style="width: 40%"></div></div>
+                            </div>
+                            <div class="chart-row">
+                                <span class="label">Study</span>
+                                <div class="bar-bg"><div class="bar-fill" style="width: 30%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 足迹 -->
+                    <div class="card map-card">
+                        <h3>当前坐标</h3>
+                        <div class="map-placeholder">
+                            <p>📍 Guangdong, China</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 书籍推荐 -->
+        <section id="books" class="section-block">
+            <div class="container">
+                <h2 class="section-title">Books Recommend</h2>
+                <div class="grid-layout three-columns">
+                    <div class="card book-card">
+                        <div class="book-cover">
+                            <img src="./image/mankun.jpg" alt="Mankun">
+                        </div>
+                        <div class="card-body">
+                            <h3>经济学原理</h3>
+                            <p>Mankun</p>
+                        </div>
+                    </div>
+                    <div class="card book-card">
+                        <div class="book-cover">
+                            <img src="./image/shendu.jpg" alt="Shendu">
+                        </div>
+                        <div class="card-body">
+                            <h3>深度学习</h3>
+                            <p>Deep Learning</p>
+                        </div>
+                    </div>
+                    <div class="card book-card">
+                        <div class="book-cover">
+                            <img src="./image/mask.jpg" alt="Mask">
+                        </div>
+                        <div class="card-body">
+                            <h3>埃隆·马斯克传</h3>
+                            <p>Elon Musk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer id="books" class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <h2>WZW</h2>
+                <p>I'm cooprate with different area people that why I create this website.</p>
+                <a href="mailto:example@email.com" class="btn btn-primary">发送邮件</a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 MyBlog. Inspired by SamuelQZQ.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+- **Java：**熟练Java及其特性，如集合类，自定义注解，异常处理，多线程，反射，泛型等机制。熟练面向对象编程思想，理解网络，多线程，锁等基本概念
+
+- **Springboot：**熟练Springboot框架，掌握AOP，IOC等特性，熟练MyBatis，MyBatis-plus，MyBatis-Flex等框架
+
+- **微服务与分布式：**掌握SpringCloud微服务架构，掌握服务注册Nacos，OpenFeign远程调用，Sentinel服务熔断，GateWay网关，Seata分布式事务
+
+- **AI应用开发：**熟练AI应用开发，如：RAG，MCP，Skills，Prompt，结构化输出，流式输出，长文本聊天记忆
+
+- **数据库与持久层：**熟练Mysql数据库及其优化，熟悉事务管理，索引优化，熟练sql语句，分页查询，动态SQL，关联查询
+
+- **Git：**熟练Git团队开发工具，如分支管理、合并、 rebase、解决冲突等操作，保障代码版本清晰。
+
+- **前端：**掌握HTML，CSS，JS，TS，掌握Vue3框架，Element-plus组件，Ant-Design Vue组件
+
+- **Vibe Coding：**熟练Vibe Coding(AI编程)，以及编程工具cursor，trae的使用，掌握claude code，mcp，skills的使用
